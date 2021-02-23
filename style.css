@@ -1,0 +1,125 @@
+body {
+  background-color: #f5f5f5;
+}
+
+/* Footer */
+footer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Forms */
+.text-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Banner home */
+.jumbotron {
+  height: 450px;
+  background-image: url(https://images.unsplash.com/photo-1450609283058-0ec52fa7eac4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+  background-position-y: 20%;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+
+.banner {
+  display: block;
+  margin-top: 20px;
+}
+
+.lead {
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.3rem;
+}
+
+.jumbotron h1 {
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+/* Banner contact */
+#banner {
+  height: 350px;
+  background-image: url(https://images.unsplash.com/photo-1504454449875-92cfa39e1315?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  background-position-y: 80%;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  border: solid 1px gray;
+  border-radius: 3px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card-img-top {
+  width: 320px;
+  height: 180px;
+}
+
+.media {
+  width: 720px;
+}
+
+.text-gray-dark {
+  margin-left: 10px;
+}
+
+/* Element */
+.container_xx {
+  margin-top: 10em;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+legend {
+  font-family: "Times New Roman", Times, serif;
+  color: red !important;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Ressources */
+img {
+  width: 100%;
+}
+
+.container-ressource {
+  background-color: white;
+}
+
+.list-unstyled-ressource {
+  display: flex;
+  justify-content: space-around;
+}
